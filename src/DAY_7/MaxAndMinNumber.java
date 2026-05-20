@@ -15,7 +15,7 @@ public class MaxAndMinNumber {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
 
-        for(int i = 0 ;i<size ; i++){
+        for(int i = 0 ;i<size  ; i++){
             if (max<numbers[i]){
                 max = numbers[i];
             }
