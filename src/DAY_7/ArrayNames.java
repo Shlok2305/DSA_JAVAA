@@ -11,7 +11,7 @@ public class ArrayNames {
         for (int i = 0 ;i< n;i++){
             names[i] = sc.next();
         }
-        for(int i = 0 ;i< names.length;i++){
+        for(int i = 0 ;i< n;i++){
             System.out.println(names[i]);
         }
 
