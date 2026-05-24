@@ -6,6 +6,19 @@ public class GreatestCommonFactor {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-//        for (int i = 0; )
+        int se = 0;
+        int gcd = 0;
+        if(a>b){
+            se = b;
+        }else{
+            se = a;
+        }
+        for (int i =se;i>0;i--){
+            if(a%i ==0 && b%i ==0){
+                gcd = i;
+                break;
+            }
+        }
+        System.out.println(gcd);
     }
 }
