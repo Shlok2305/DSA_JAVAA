@@ -12,7 +12,7 @@ public class ReverseAString {
 
     public static void main(String[] args) {
         String n = "abcd";
-        int idx  = n.length()-1;
-        Reverse(n,idx);
+//        int idx  = n.length()-1;
+        Reverse(n,n.length()-1);
     }
 }
