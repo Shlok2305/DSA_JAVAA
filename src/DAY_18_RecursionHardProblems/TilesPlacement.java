@@ -2,11 +2,11 @@ package DAY_18_RecursionHardProblems;
 
 public class TilesPlacement {
     public static int PlaceTiles(int n ,int m){
-        if(n==0){
-            return 1;
+        if(n==m){
+            return 2;
         }
-        if(n<0){
-            return 0;
+        if(n<m){
+            return 1;
         }
 
         // Vertically
