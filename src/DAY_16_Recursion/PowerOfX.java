@@ -8,8 +8,6 @@ public class PowerOfX {
             return 0;
         }
         return x * PrintPower(x,n-1);
-
-
     }
 
     public static void main(String[] args) {
