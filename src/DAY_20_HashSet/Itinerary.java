@@ -12,11 +12,11 @@ public class Itinerary {
                 start = key;
             }
         }
-        System.out.println(start);
         for(int i = 0 ;i<n.size();i++){
-            System.out.println(n.get(start));
+            System.out.println(start);
             start = n.get(start);
         }
+        System.out.println(start);
     }
 
     public static void main(String[] args) {
