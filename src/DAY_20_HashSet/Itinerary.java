@@ -1,7 +1,6 @@
 package DAY_20_HashSet;
 
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.*;
 
 public class Itinerary {
     public static void ToNFor(HashMap<String ,String > n){
